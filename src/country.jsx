@@ -20,7 +20,7 @@ const CustomizeCountry = ({ name, alt, image }) => {
     >
       <img
         src={image}
-        alt={alt}
+        alt={name}
         style={{
           width: "120px",
           height: "100px",
